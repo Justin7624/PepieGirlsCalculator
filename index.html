@@ -392,21 +392,34 @@
       position:absolute;
       bottom:16px;
       width:1px;
-      background:rgba(255,255,255,.28);
+      background:rgba(34,24,29,.32);
       transform:translateX(-.5px);
     }
-
-    .tick.minor{height:8px; opacity:.55;}
-    .tick.mid{height:13px; opacity:.82;}
-    .tick.major{height:18px; opacity:1; background:rgba(255,255,255,.42);}
-
+    
+    .tick.minor{
+      height:8px;
+      opacity:1;
+    }
+    
+    .tick.mid{
+      height:13px;
+      opacity:1;
+      background:rgba(34,24,29,.48);
+    }
+    
+    .tick.major{
+      height:18px;
+      opacity:1;
+      background:rgba(34,24,29,.68);
+    }
+    
     .tick .n{
       position:absolute;
       top:20px;
       left:50%;
       transform:translateX(-50%);
       font-size:.68rem;
-      color:#aab2bc;
+      color:#9b9097;
       white-space:nowrap;
     }
 
